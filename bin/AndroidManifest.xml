@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hack.plazooka"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" android:maxSdkVersion="19"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Plazooka"
+            android:label="@string/title_activity_plazooka" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Options"
+            android:label="@string/title_activity_options" >
+        </activity>
+        <activity
+            android:name=".Description"
+            android:label="@string/title_activity_description" >
+        </activity>
+        <activity
+            android:name=".ViewGames"
+            android:label="@string/title_activity_view_games" >
+        </activity>
+        <activity
+            android:name=".ShareGame"
+            android:label="@string/title_activity_share_game" >
+        </activity>
+        <activity
+            android:name=".SevenStones"
+            android:label="@string/title_activity_seven_stones" >
+        </activity>
+        <activity
+            android:name=".HideNSeek"
+            android:label="@string/title_activity_hide_nseek" >
+        </activity>
+        <activity
+            android:name=".Frisbee"
+            android:label="@string/title_activity_frisbee" >
+        </activity>
+        <activity
+            android:name=".MiddleMonkey"
+            android:label="@string/title_activity_middle_monkey" >
+        </activity>
+        <activity
+            android:name=".DogInTheBone"
+            android:label="@string/title_activity_dog_in_the_bone" >
+        </activity>
+        <activity
+            android:name=".Dodgeball"
+            android:label="@string/title_activity_dodgeball" >
+        </activity>
+        <activity
+            android:name=".InvitePage"
+            android:label="@string/title_activity_invite_page" >
+        </activity>
+        <activity
+            android:name=".Contacts"
+            android:label="@string/title_activity_contacts" >
+        </activity>
+    </application>
+
+</manifest>
